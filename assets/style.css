@@ -74,6 +74,22 @@ header nav ul li a:hover {
   color: black;
 }
 
+/*about me*/
+#about-me {
+  margin: 20px 20px;
+  flex-wrap: wrap;
+  color: black;
+  border-bottom: solid;
+}
+#about-me img {
+  width: 30%;
+  border: rgba(0, 128, 0, 0.699) solid;
+}
+section h2 {
+  font-size: xx-large;
+}
+/*about me ends*/
+
 /* work section */
 section {
   padding: 100px;
@@ -85,8 +101,8 @@ section {
 
 .flex-row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 div {
   display: block;
@@ -96,9 +112,6 @@ div {
 }
 .section-title {
   font-size: 40px;
-  border-bottom: 10px solid;
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
   color: black;
   text-align: left;
   margin: 0 auto 35px auto;
@@ -130,10 +143,10 @@ h2 {
   color: black;
 }
 article {
-  display: inline-flex;
+  display: block;
 }
 .run-buddy img {
-  width: 50%;
+  width: 100%;
 }
 .horiseon {
   margin: 20px 20px;
@@ -141,7 +154,7 @@ article {
   color: black;
 }
 .horiseon img {
-  width: 50%;
+  width: 100%;
 }
 .coming-soon {
   margin: 0 20px;
@@ -149,13 +162,14 @@ article {
   color: black;
 }
 .coming-soon img {
-  width: 50%;
+  width: 100%;
 }
 /*work section ends*/
 
 /* contact me area */
 .contact {
   background: url(https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg);
+  background-position: center;
 }
 .contact h1 {
   color: brown;
@@ -189,4 +203,21 @@ address {
 .contact-info a {
   color: white;
   font-style: italic;
+}
+
+/*linked int area*/
+#idLinkedInIcon {
+  background-color: rgb(0, 102, 170);
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font: bold 35px Arial, Helvetica, sans-serif;
+  height: 40px;
+  margin-top: 1px;
+  text-align: center;
+  width: 40px;
+}
+#idLinkedInIcon:hover {
+  background-color: #06d;
 }
