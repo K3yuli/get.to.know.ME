@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- character set -->
+  <!-- character set -->
     <meta charset="UTF-8" />
     <!-- viewport (visible area on webpage) need content so code looks good on any device (tablet,laptop or phone) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Get To Know ME</title>
-    <!-- STYLE IS WHERE CSS CODE GOES (can be placed on html pg or linked to css style sheet)-->
-    <style></style>
-    <!-- in body - WHAT WILL APPEAR ON THE PAGE -->
+  </head>
+
+<!-- in body - WHAT WILL APPEAR ON THE PAGE -->
     <body>
-      <!-- Navigation (goes on top of pg) -->
+    <!-- Navigation (goes on top of pg) -->
       <header>
-        <h1>Kenia Y. Lizama-Gamez</h1>
+        <h1>
+          <a href="/"> Kenia Y. Lizama-Gamez </a>
+        </h1>
         <nav>
           <ul>
             <li>
@@ -27,9 +30,9 @@
           </ul>
         </nav>
       </header>
-      <!-- navigation ends -->
+<!-- navigation ends -->
 
-      <!-- Picture area -->
+<!-- Picture area -->
       <div>
         <p>
           <img src="" alt="an image of Kenia Lizama-Gamez" />
@@ -41,40 +44,71 @@
           </em>
         </p>
       </div>
-      <!-- picture area ends -->
+<!-- picture area ends -->
 
-      <!-- About me section -->
-      <div>
+<!-- About me section -->
+    <section id="about-me" class="bio">
+      <div class="flex-row">
         <h2>About Me</h2>
-        <p>
-
-      
-        </p>
+        <div class="flex-row">
+            <p>
+                I  am an inspiring full stack web developer.  I like to develop my artistic side and help others accomplish their goals towards their desired project.
+          
+            </p>
+        </div>
       </div>
+    </section>
 
-      <!-- About me section ends -->
+<!-- About me section ends -->
 
 
-      <!-- Work Section -->
-      <div>
-        <h2>Work</h2>
-          <p>
-
-          </p>
+<!-- Work Section -->
+    <section id="work">
+      <div class="flex-row">
+        <h2 class="section-title primary border">Work</h2>
       </div>
-      <!-- Work section ends -->
+        <div class="projects">
+            <article class="run-buddy">
+              <img src="./images/050-mock-up (1).jpeg" alt="Run Buddy Webpage">
+              <div>
+                <h3 class="run-buddy-info">Run Buddy</h3>
+                <h6 class="tech">HTML CSS</h6>
+              </div>
+            </article>
+        </div>
+        <div class="projects">
+          <article class="horiseon">
+            <img src="./images/digital-marketing-meeting.jpg" alt="search engine">
+            <div>
+              <h3 class="horison-info">Horiseon</h3>
+              <h6 class="tech">HTML CSS</h6>
+            </div>
+          </article>
+        </div>
+        <div></div>
+    </section>
+<!-- Work section ends -->
 
-      <!-- Contact me section -->
-      <div>
-        <h2>Contact Me</h2>
-          <p>
-
-          </p>
+<!-- Contact me section -->
+    <section id="contact-me" class="contact">
+      <div class="flex-row">
+        <h2 class="section-title">Contact Me</h2>
       </div>
-      <!-- Contact section ends -->
+        <div class="contact-info"> <!-- this is flex -->
+          <div>
+            <h3>Kenia Y. Lizama-Gamez</h3>
+            <address>
+              P: 704-619-3645
+              <br>
+              E:
+              <a href="mailto:ke.yulizama@gmail.com">ke.yulizama@gmail.com</a>
+            </address>
+          </div>
+        </div>
+    </section>
+<!-- Contact section ends -->
 
-      <!-- in html there are six heading elements 
-      (from most important to least important - bigger text to smaller text) -->
+      <!-- footer -->
       
     </body>
   </head>

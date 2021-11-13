@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* insert primary colors (root) */
+
+/* header section (top of page) */
+header {
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  top: 0;
+  background-size: cover;
+  position: -webkit-sticky;
+  background-image: url(https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg);
+  position: sticky;
+  background-position: 80%;
+}
+
+body {
+  color: black;
+  background-image: url(https://media.istockphoto.com/photos/sponge-painted-wall-picture-id184965317?k=20&m=184965317&s=612x612&w=0&h=W3gnbSY8qe9bFpgTsCep8jcbFxBvmX9P9-j8ZQKuB98=);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 30px;
+}
+header a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+header nav {
+  margin: 7px 0;
+}
+nav {
+  display: block;
+}
+ul {
+  list-style-type: disc;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li a {
+  padding: 10px 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: small;
+}
+
+/* work section */
+section {
+  padding: 60px;
+  display: block;
+}
+#work {
+  border-style: groove;
+  flex-flow: column;
+}
+.flex-flow {
+  display: flex;
+}
+div {
+  display: block;
+}
+.primary-border {
+  border-color: black;
+}
+.section-title {
+  font-size: 40px;
+  border-bottom: 3px solid;
+  border-bottom-width: 3px;
+  border-bottom-style: groove;
+  border-bottom-color: initial;
+  color: black;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 35px;
+  margin-left: auto;
+  width: 50%;
+}
+h2 {
+  display: block;
+  font-size: small;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.run-buddy {
+  margin: 20px 20px;
+  flex: 1;
+  color: black;
+}
+article {
+  display: block;
+}
+.run-buddy img {
+  width: 50%;
+}
+.horiseon {
+  margin: 20px 20px;
+  flex: 1;
+  color: black;
+}
+.horiseon img {
+  width: 50%;
+}
+/*work section ends*/
+
+/* contact me area */
+.contact {
+  background: url(https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg);
+}
+.contact h2 {
+  color: white;
+}
+h2 {
+  display: block;
+  font-size: small;
+  font-weight: bold;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-info h3 {
+  color: white;
+}
+address {
+  display: block;
+  font-style: italic;
+  color: white;
+}
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 10px;
+  font-style: normal;
+}
+.contact-info a {
+  color: white;
+  font-style: italic;
+}
