@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 2px 2px;
+  margin: 1px 1px;
   padding: 0;
 }
 /* insert primary colors (root) */
@@ -15,22 +15,17 @@ header {
   background-size: cover;
   background-image: url(https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg);
   background-position: center;
+  color: brown;
 }
 body {
   color: black;
   background-image: url(https://media.istockphoto.com/photos/sponge-painted-wall-picture-id184965317?k=20&m=184965317&s=612x612&w=0&h=W3gnbSY8qe9bFpgTsCep8jcbFxBvmX9P9-j8ZQKuB98=);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: fantasy;
 }
 header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 30px;
-}
-header a {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: black;
 }
 header nav {
   margin: 7px 0;
@@ -64,8 +59,10 @@ header nav ul li a {
   padding-bottom: 10px;
   padding-right: 15px;
   padding-left: 50px;
-  font-weight: bold;
-  font-size: small;
+  font-weight: bolder;
+  font-size: medium;
+  font-family: fantasy;
+  color: brown;
 }
 header nav ul li a:hover {
   border-radius: 15px;
@@ -92,7 +89,7 @@ section h2 {
 
 /* work section */
 section {
-  padding: 100px;
+  padding: 0px 10px 100px 10px;
   display: block;
 }
 #work {
@@ -100,12 +97,9 @@ section {
 }
 
 .flex-row {
-  display: flex;
+  display: inherit;
   justify-content: center;
   text-align: center;
-}
-div {
-  display: block;
 }
 .primary-border {
   border-color: black;
@@ -114,12 +108,6 @@ div {
   font-size: 40px;
   color: black;
   text-align: left;
-  margin: 0 auto 35px auto;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 35px;
-  margin-left: 0;
-  width: 16%;
 }
 h2 {
   display: block;
@@ -134,34 +122,40 @@ h2 {
   width: 100%;
   margin-right: 0%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  align-items: flex-end;
 }
-.run-buddy {
+.project1 {
   margin: 20px 20px;
-  flex: 1;
   color: black;
 }
-article {
-  display: block;
-}
-.run-buddy img {
+.project1 img {
   width: 100%;
 }
-.horiseon {
+.project1 img:hover {
+  -webkit-filter: brightness(200%);
+}
+.project2 {
   margin: 20px 20px;
-  flex: 1;
   color: black;
 }
-.horiseon img {
+.project2 img:hover {
+  -webkit-filter: brightness(200%);
+}
+.project2 img {
   width: 100%;
 }
-.coming-soon {
-  margin: 0 20px;
-  flex: 1;
+.project3 {
+  margin: 20px 20px;
   color: black;
 }
-.coming-soon img {
+.project3 img {
+  width: 100%;
+}
+.project4 {
+  margin: 20px 20px;
+  color: black;
+}
+.project4 img {
   width: 100%;
 }
 /*work section ends*/
@@ -170,39 +164,10 @@ article {
 .contact {
   background: url(https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg);
   background-position: center;
-}
-.contact h1 {
-  color: brown;
-}
-.contact h5 {
-  color: brown;
-}
-h1 {
-  display: block;
-  font-weight: bold;
-}
-.contact-info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-.contact-info h3 {
   color: brown;
-}
-address {
-  display: block;
-  font-style: italic;
-  color: brown;
-}
-.contact-info address {
-  margin: 20px 0;
-  line-height: 1.5;
-  font-size: 10px;
-  font-style: normal;
-}
-.contact-info a {
-  color: white;
-  font-style: italic;
 }
 
 /*linked int area*/
@@ -221,3 +186,5 @@ address {
 #idLinkedInIcon:hover {
   background-color: #06d;
 }
+
+
