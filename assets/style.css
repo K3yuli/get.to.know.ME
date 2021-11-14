@@ -26,6 +26,7 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 30px;
+  padding: 0px 200px 0px 50px;
 }
 header nav {
   margin: 7px 0;
@@ -79,8 +80,8 @@ header nav ul li a:hover {
   border-bottom: solid;
 }
 #about-me img {
-  width: 30%;
-  border: rgba(0, 128, 0, 0.699) solid;
+  width: 20%;
+  border: ivory solid;
 }
 section h2 {
   font-size: xx-large;
@@ -94,6 +95,7 @@ section {
 }
 #work {
   display: flex;
+  padding: 0 50px;
 }
 
 .flex-row {
@@ -119,17 +121,16 @@ h2 {
   font-weight: bold;
 }
 .projects {
-  width: 100%;
-  margin-right: 0%;
   display: flex;
-  align-items: flex-end;
+  flex-wrap: wrap;
 }
 .project1 {
   margin: 20px 20px;
   color: black;
+  
 }
 .project1 img {
-  width: 100%;
+  width: 30%;
 }
 .project1 img:hover {
   -webkit-filter: brightness(200%);
@@ -137,26 +138,29 @@ h2 {
 .project2 {
   margin: 20px 20px;
   color: black;
+  
 }
 .project2 img:hover {
   -webkit-filter: brightness(200%);
 }
 .project2 img {
-  width: 100%;
+  width: 20%;
 }
 .project3 {
   margin: 20px 20px;
   color: black;
+  
 }
 .project3 img {
-  width: 100%;
+  width: 30%;
 }
 .project4 {
   margin: 20px 20px;
   color: black;
+  
 }
 .project4 img {
-  width: 100%;
+  width: 30%;
 }
 /*work section ends*/
 
@@ -168,6 +172,9 @@ h2 {
   justify-content: space-between;
   flex-wrap: wrap;
   color: brown;
+}
+#contact-me {
+  padding: 10px 0 10px 50px;
 }
 
 /*linked int area*/
@@ -187,4 +194,52 @@ h2 {
   background-color: #06d;
 }
 
+/*media query for smaller desktop screens and smaller*/
+@media screen and (max-width: 980px) {
+  header {
+    padding-top: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #about-me img {
+    width: 20%;
+  }
+  p {
+    margin: 0px 200px;
+    display: block;
+  }
+  .project1 {
+    display: flex;
+  }
+  .project2 {
+    display: flex;
+  }
+  .project3 {
+    display: flex;
+  }
+  .project4 {
+    display: flex;
 
+  }
+}
+
+/*media query for tablets and smaller devices*/
+@media screen and (max-width: 768px) {
+  header {
+    padding-top: 0;
+  }
+}
+
+/*media query for mobile phones and smaller devices*/
+@media  screen and (max-width: 575px) {
+  header {
+    padding: 0 0;
+  }
+  nav {
+    padding-right: 100px;
+  }
+  p {
+    display: contents;
+  }
+}
